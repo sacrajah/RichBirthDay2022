@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "lato", sans-serif;
+    /* background-color: aliceblue; */
+}
+
+h2{
+    font-size: 7rem;
+    font-weight: bold;
+    padding: 3rem;
+
+}
+.coming-soon{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.countdown{
+    display: flex;
+justify-content: space-around;
+}
+.day, .hour, .minute, .second{
+    font-size: 8rem;
+    color: red;
+    text-align: right;
+}
+.waiting {
+  height: 50vh;
+}
+img{
+    margin-left:230px;
+}
+h4{
+    color: blueviolet;
+    padding: 3rem;
+}
+h3{
+    font-size: 40px;
+}
+.state{
+    color: blue;
+    text-align: center;
+}
